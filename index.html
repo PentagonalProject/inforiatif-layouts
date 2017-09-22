@@ -8,12 +8,14 @@
     </head>
 
     <body>
+        <a class="screen-reader-text" href="#content">Skip to content</a>
+
         <header>
             <h1>Inforiatif</h1>
             <p>Informasi, Tips, &amp; Berita Teknologi Terkini</p>
         </header>
 
-        <main>
+        <main id="content">
             <article>
                 <header>
                     <h2>Hello world</h2>
@@ -36,9 +38,9 @@
         </nav>
 
         <aside>
-            <form>
-                <label for="search">Cari</label>
-                <input type="search" id="search" name="search">
+            <form role="search">
+                <label for="search" class="screen-reader-text">Cari</label>
+                <input type="search" id="search" name="search"  placeholder="Cari ...">
                 <input type="submit" value="Cari">
             </form>
         </aside>
@@ -59,8 +61,8 @@
                 <h2>Berlangganan Artikel</h2>
 
                 <form>
-                    <label for="email">Email Anda</label>
-                    <input type="email" id="email" name="email">
+                    <label for="email" class="screen-reader-text">Email Anda</label>
+                    <input type="email" id="email" name="email" placeholder="Email Anda">
                     <input type="submit" value="Kirim">
                 </form>
             </section>
