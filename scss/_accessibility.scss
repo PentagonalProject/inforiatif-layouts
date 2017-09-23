@@ -1,0 +1,18 @@
+.screen-reader-text {
+  overflow: hidden;
+  clip: rect(0.0625em, 0.0625em, 0.0625em, 0.0625em);
+  position: absolute;
+  width: 0.0625em;
+  height: 0.0625em;
+  white-space: nowrap;
+
+  &:focus {
+    display: block;
+    clip: auto;
+    z-index: 100000;
+    top: 0.3125em;
+    left: 0.3125em;
+    width: auto;
+    height: auto;
+  }
+}
