@@ -111,7 +111,167 @@ linters:
     enabled: false
 
   PropertySortOrder:
-    enabled: false
+    enabled: true
+    order:
+      # Generated Content
+      - content
+
+      - counter-increment
+      - counter-reset
+
+      - list-style
+      - list-style-image
+      - list-style-position
+      - list-style-type
+
+      - quotes
+
+      # Flow Context
+      - display
+      - overflow
+      - visibility
+
+      # Position Model
+      - clip
+      - position
+      - z-index
+
+      - top
+      - right
+      - bottom
+      - left
+
+      # Float Model
+      - clear
+      - float
+
+      # Flex Model
+      - flex
+      - flex-basis
+      - flex-direction
+      - flex-flow
+      - flex-grow
+      - flex-shrink
+      - flex-wrap
+
+      - align-content
+      - align-items
+      - align-self
+      - justify-content
+      - order
+
+      # Grid Model
+      - grid
+
+      # Box Model
+      - box-sizing
+
+      - width
+      - max-width
+      - min-width
+
+      - height
+      - max-height
+      - min-height
+
+      - margin
+      - margin-top
+      - margin-right
+      - margin-bottom
+      - margin-left
+
+      - padding
+      - padding-top
+      - padding-right
+      - padding-bottom
+      - padding-left
+
+      - border
+      - border-collapse
+      - border-color
+      - border-radius
+      - border-spacing
+      - border-style
+      - border-width
+
+      # Visual Box
+      - background
+      - background-size
+      - box-shadow
+      - object-fit
+      - opacity
+
+      - outline
+      - outline-color
+      - outline-style
+      - outline-width
+
+      # Typography
+      - color
+
+      - font-family
+      - font-size
+      - font-stretch
+      - font-style
+      - font-variant
+      - font-weight
+
+      - hanging-punctuation
+
+      - letter-spacing
+      - line-height
+
+      - text-align
+      - text-decoration
+      - text-indent
+      - text-justify
+      - text-overflow
+      - text-shadow
+      - text-stroke
+      - text-transform
+
+      - vertical-align
+
+      - white-space
+      - word-break
+      - word-spacing
+
+      # Animation
+      - animation
+      - animation-delay
+      - animation-direction
+      - animation-duration
+      - animation-iteration-count
+      - animation-fill-mode
+      - animation-name
+      - animation-play-state
+      - animation-timing-function
+
+      # Transform
+      - backface-visiblity
+
+      - perspective
+      - perspective-origin
+
+      - transform
+      - transform-origin
+      - transform-style
+
+      # Transition
+      - transition
+      - transition-delay
+      - transition-duration
+      - transition-property
+      - transition-timing-function
+
+      # Will Change
+      - will-change
+
+      # Pointer and Selection
+      - appearance
+      - cursor
+      - pointer-events
+      - user-select
 
   PropertySpelling:
     enabled: true
