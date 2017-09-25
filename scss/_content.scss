@@ -3,6 +3,7 @@
 // ==============================================
 .site-header {
   position: absolute;
+  z-index: 1;
   top: 0;
   right: 0;
   left: 0;
@@ -16,10 +17,24 @@
   margin-bottom: 0;
 }
 
+.site-title {
+  a {
+    background: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+  }
+}
+
+.site-description {
+  display: inline;
+  background: hsl(0, 0%, 20%);
+  color: hsl(0, 0%, 100%);
+}
+
 // ==============================================
 // Site Main
 // ==============================================
 .site-main {
+  overflow: hidden;
   position: relative;
   height: 100vh;
 }
@@ -27,11 +42,23 @@
 .hero-header {
   position: absolute;
   right: 1em;
-  bottom: 1em;
+  bottom: 20vh;
   left: 1em;
 }
 
 .hero-title {
   margin-bottom: 0;
   font-size: 2em;
+
+  a {
+    background: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+  }
+}
+
+.hero-content {
+  img {
+    height: 100vh;
+    object-fit: cover;
+  }
 }
