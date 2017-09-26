@@ -6,7 +6,8 @@ input {
   line-height: 1.5;
 }
 
-h1 {
+h1,
+h2 {
   &:first-child {
     margin-top: 0;
   }
@@ -14,8 +15,4 @@ h1 {
 
 p {
   margin-top: 0;
-}
-
-a {
-  text-decoration: none;
 }
