@@ -2,6 +2,17 @@ a {
   text-decoration: none;
 }
 
+.skip-link {
+  display: inline-block;
+  padding: 1.5em;
+  border: 0.0625em solid hsl(0, 0%, 20%);
+  background: hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 20%);
+  font-size: 0.75em;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
 .main-navigation {
   border-bottom: 0.0625em solid hsl(0, 0%, 20%);
 
