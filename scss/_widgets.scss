@@ -9,7 +9,15 @@
 
   ul {
     margin-bottom: 0;
-    padding-left: 1.5em;
+    font-size: 0.9em;
+    line-height: 1;
+  }
+
+  a {
+    display: inline-block;
+    padding-top: 0.888888889em;
+    padding-bottom: 0.888888889em;
+    color: hsl(0, 0%, 20%);
   }
 }
 

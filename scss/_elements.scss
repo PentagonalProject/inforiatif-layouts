@@ -6,6 +6,19 @@ ul {
   margin-top: 0;
 }
 
+.list-inline {
+  list-style-type: none;
+  padding-left: 0;
+
+  li {
+    display: inline;
+
+    &:not(:last-child) {
+      margin-right: 0.5em;
+    }
+  }
+}
+
 img {
   width: 100%;
 }
