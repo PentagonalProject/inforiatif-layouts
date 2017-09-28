@@ -14,19 +14,23 @@ a {
 }
 
 .main-navigation {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 1em;
   border-bottom: 0.0625em solid hsl(0, 0%, 20%);
 
   .main-navigation-title {
     margin-bottom: 0;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
-    font-size: 1.5em;
-    text-align: center;
+    font-size: 1.25em;
+    line-height: 1;
   }
 
   ul {
     list-style: none;
-    padding-left: 1.5em;
+    margin-bottom: 0;
+    padding-left: 1em;
   }
 
   li {
