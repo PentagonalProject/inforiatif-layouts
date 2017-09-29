@@ -187,6 +187,10 @@ linters:
       - padding-left
 
       - border
+      - border-top
+      - border-right
+      - border-bottom
+      - border-left
       - border-collapse
       - border-color
       - border-radius
