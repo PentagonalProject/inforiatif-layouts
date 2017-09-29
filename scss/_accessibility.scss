@@ -9,14 +9,13 @@
   &:focus {
     display: block;
     clip: auto;
+    position: static;
     z-index: 100000;
     top: 0;
     left: 0;
     width: auto;
     height: auto;
     padding: 1.5em;
-    border-right: 0.083333333em solid hsl(0, 0%, 20%);
-    border-bottom: 0.083333333em solid hsl(0, 0%, 20%);
     background: hsl(0, 0%, 100%);
     color: hsl(0, 0%, 20%);
     font-size: 0.75em;

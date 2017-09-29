@@ -4,12 +4,6 @@
 .site-header {
   position: absolute;
   z-index: 1;
-  top: 0;
-  right: 0;
-  left: 0;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
-  text-align: center;
 }
 
 .site-title,
@@ -19,15 +13,20 @@
 
 .site-title {
   a {
+    display: inline-block;
+    padding-right: 0.5em;
+    padding-left: 0.5em;
     background: hsl(0, 0%, 20%);
     color: hsl(0, 0%, 100%);
   }
 }
 
 .site-description {
-  display: inline;
+  display: inline-block;
+  padding: 0.555555556em 1.111111111em;
   background: hsl(0, 0%, 20%);
   color: hsl(0, 0%, 100%);
+  font-size: 0.9em;
 }
 
 // ==============================================
