@@ -1,0 +1,13 @@
+// List Inline
+@mixin list-inline {
+  list-style-type: none;
+  padding-left: 0;
+
+  li {
+    display: inline;
+
+    &:not(:last-child) {
+      margin-right: 0.5em;
+    }
+  }
+}
