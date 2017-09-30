@@ -40,9 +40,7 @@
 
 .hero-header {
   position: absolute;
-  right: 1em;
   bottom: 20vh;
-  left: 1em;
 }
 
 .hero-title {
@@ -50,6 +48,11 @@
   font-size: 2em;
 
   a {
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    padding-top: 0.125em;
+    padding-right: 0.5em;
+    padding-left: 0.5em;
     background: hsl(0, 0%, 20%);
     color: hsl(0, 0%, 100%);
   }
