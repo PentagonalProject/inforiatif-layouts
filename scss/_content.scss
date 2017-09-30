@@ -38,6 +38,13 @@
   height: 100vh;
 }
 
+.hero {
+  img {
+    height: 100vh;
+    object-fit: cover;
+  }
+}
+
 .hero-header {
   position: absolute;
   bottom: 20vh;
@@ -55,13 +62,6 @@
     padding-left: 0.5em;
     background: hsl(0, 0%, 20%);
     color: hsl(0, 0%, 100%);
-  }
-}
-
-.hero-content {
-  img {
-    height: 100vh;
-    object-fit: cover;
   }
 }
 
