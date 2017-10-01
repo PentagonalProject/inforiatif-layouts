@@ -3,24 +3,32 @@
 }
 
 .widget {
-  padding: 1.5em 1em;
+  padding: 1em;
 
   ul {
     margin-bottom: 0;
     font-size: 0.9em;
     line-height: 1;
+
+    a {
+      display: inline-block;
+      height: 2.777777778em;
+      padding-top: 0.888888889em;
+      padding-bottom: 0.888888889em;
+    }
   }
 
   a {
-    display: inline-block;
-    padding-top: 0.888888889em;
-    padding-bottom: 0.888888889em;
     color: hsl(0, 0%, 20%);
+  }
+
+  form {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
   }
 }
 
 .widget-title {
-  margin-bottom: 0.75em;
+  margin-bottom: 0.8em;
   font-size: 1.25em;
-  line-height: 1;
 }
