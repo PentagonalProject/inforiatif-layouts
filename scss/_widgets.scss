@@ -3,10 +3,10 @@
 }
 
 .widget {
-  padding: 1em;
+  padding-right: 1em;
+  padding-left: 1em;
 
   ul {
-    margin-bottom: 0;
     font-size: 0.9em;
     line-height: 1;
 
@@ -23,12 +23,11 @@
   }
 
   form {
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
   }
 }
 
 .widget-title {
-  margin-bottom: 0.8em;
   font-size: 1.25em;
 }

@@ -5,14 +5,3 @@ input {
   font-size: 1em;
   line-height: 1.5;
 }
-
-h1,
-h2 {
-  &:first-child {
-    margin-top: 0;
-  }
-}
-
-p {
-  margin-top: 0;
-}
