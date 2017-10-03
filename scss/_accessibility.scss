@@ -7,6 +7,7 @@
   white-space: nowrap;
 
   &:focus {
+    @include button;
     display: block;
     clip: auto;
     position: static;
@@ -15,11 +16,5 @@
     left: 0;
     width: auto;
     height: auto;
-    padding: 1.5em;
-    background: hsl(0, 0%, 100%);
-    color: hsl(0, 0%, 20%);
-    font-size: 0.75em;
-    line-height: 1;
-    text-transform: uppercase;
   }
 }

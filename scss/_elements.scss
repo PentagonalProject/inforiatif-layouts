@@ -23,13 +23,7 @@ img {
 }
 
 .btn {
-  max-height: 4em;
-  padding: 1.5em;
-  border: 0.0625em solid hsl(0, 0%, 20%);
-  color: hsl(0, 0%, 20%);
-  font-size: 0.75em;
-  line-height: 1;
-  text-transform: uppercase;
+  @include button;
 }
 
 .btn-block {
