@@ -2,6 +2,7 @@
 // Color Brand
 //--------------------------------------------------------------
 $gray-20: hsl(0, 0%, 20%);
+$white: hsl(0, 0%, 100%);
 
 //--------------------------------------------------------------
 // Color Border
@@ -9,3 +10,9 @@ $gray-20: hsl(0, 0%, 20%);
 $color-border: $gray-20;
 $color-border-button: $gray-20;
 $color-border-input: $gray-20;
+
+//--------------------------------------------------------------
+// Color Background
+//--------------------------------------------------------------
+$color-background-button: $white;
+$color-background-hero-text: $gray-20;

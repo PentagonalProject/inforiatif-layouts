@@ -16,7 +16,7 @@
 @mixin button {
   padding: 1.416666667em;
   border: 0.083333333em solid $color-border-button;
-  background: hsl(0, 0%, 100%);
+  background: $color-background-button;
   color: hsl(0, 0%, 20%);
   font-size: 0.75em;
   line-height: 1;
