@@ -2,6 +2,10 @@ body,
 input {
   color: $color-text;
   font-family: Arial, sans-serif;
-  font-size: 1em;
+  font-size: $font-size-regular;
   line-height: 1.5;
+}
+
+small {
+  font-size: $font-size-small;
 }
