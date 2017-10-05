@@ -12,14 +12,14 @@
     padding-right: 0.5em;
     padding-left: 0.5em;
     background: $color-background-hero-text;
-    color: hsl(0, 0%, 100%);
+    color: $color-link-hero;
   }
 }
 
 .site-description {
   padding: 0.625em 1.25em;
   background: $color-background-hero-text;
-  color: hsl(0, 0%, 100%);
+  color: $color-link-hero;
 }
 
 // ==============================================
@@ -53,7 +53,7 @@
     padding-right: 0.5em;
     padding-left: 0.5em;
     background: $color-background-hero-text;
-    color: hsl(0, 0%, 100%);
+    color: $color-link-hero;
   }
 }
 
