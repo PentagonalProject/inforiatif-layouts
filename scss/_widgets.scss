@@ -3,8 +3,8 @@
 }
 
 .widget {
-  padding-right: 1em;
-  padding-left: 1em;
+  padding-right: $padding-content;
+  padding-left: $padding-content;
 
   ul {
     font-size: $font-size-small;

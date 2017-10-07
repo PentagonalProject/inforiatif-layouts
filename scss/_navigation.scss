@@ -8,7 +8,7 @@ a {
 }
 
 .main-navigation {
-  padding-left: 1em;
+  padding-left: $padding-content;
   border-bottom: 0.0625em solid $color-border;
 
   .main-navigation-title {
@@ -18,7 +18,7 @@ a {
 
   ul {
     list-style: none;
-    padding-left: 1em;
+    padding-left: $padding-content;
   }
 
   li {

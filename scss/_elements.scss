@@ -17,8 +17,8 @@ img {
 .input-field {
   width: 100%;
   height: 3em;
-  padding-right: 0.75em;
-  padding-left: 0.75em;
+  padding-right: $padding-input;
+  padding-left: $padding-input;
   border: 0.0625em solid $color-border-input;
 }
 
