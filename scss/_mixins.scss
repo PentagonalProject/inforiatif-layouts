@@ -14,7 +14,7 @@
 
 // Button
 @mixin button {
-  padding: 1.416666667em;
+  padding: $padding-button;
   border: 0.083333333em solid $color-border-button;
   background: $color-background-button;
   color: $color-text-button;

@@ -9,15 +9,15 @@
 .site-title {
   a {
     display: inline-block;
-    padding-right: 0.5em;
-    padding-left: 0.5em;
+    padding-right: $padding-content;
+    padding-left: $padding-content;
     background: $color-background-hero-text;
     color: $color-link-hero;
   }
 }
 
 .site-description {
-  padding: 0.625em 1.25em;
+  padding: $padding-content / 2 $padding-content;
   background: $color-background-hero-text;
   color: $color-link-hero;
 }
@@ -49,9 +49,9 @@
   a {
     -webkit-box-decoration-break: clone;
     box-decoration-break: clone;
-    padding-top: 0.125em;
-    padding-right: 0.5em;
-    padding-left: 0.5em;
+    padding-top: $padding-content / 2;
+    padding-right: $padding-content;
+    padding-left: $padding-content;
     background: $color-background-hero-text;
     color: $color-link-hero;
   }
