@@ -19,7 +19,7 @@ img {
   height: 3em;
   padding-right: $padding-input;
   padding-left: $padding-input;
-  border: 0.0625em solid $color-border-input;
+  border: $border-width solid $color-border-input;
 }
 
 .btn {

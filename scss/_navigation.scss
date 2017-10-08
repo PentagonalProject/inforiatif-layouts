@@ -9,7 +9,7 @@ a {
 
 .main-navigation {
   padding-left: $padding-content;
-  border-bottom: 0.0625em solid $color-border;
+  border-bottom: $border-width solid $color-border;
 
   .main-navigation-title {
     font-size: $font-size-large;
@@ -23,7 +23,7 @@ a {
 
   li {
     &:not(:last-child) {
-      border-bottom: 0.0625em solid $color-border;
+      border-bottom: $border-width solid $color-border;
     }
   }
 
