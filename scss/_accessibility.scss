@@ -1,20 +1,10 @@
 .screen-reader-text {
-  overflow: hidden;
   clip: rect(0.0625em, 0.0625em, 0.0625em, 0.0625em);
   position: absolute;
-  width: 0.0625em;
-  height: 0.0625em;
-  white-space: nowrap;
 
   &:focus {
     @include button;
     display: block;
-    clip: auto;
     position: static;
-    z-index: 100000;
-    top: 0;
-    left: 0;
-    width: auto;
-    height: auto;
   }
 }
