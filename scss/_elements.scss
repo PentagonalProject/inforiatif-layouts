@@ -43,7 +43,7 @@ img {
 .form-stack {
   > input {
     &:not(:last-child) {
-      margin-bottom: 1em;
+      margin-bottom: $margin-content;
     }
   }
 }
