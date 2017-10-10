@@ -13,9 +13,9 @@
 }
 
 // Button
-@mixin button {
+@mixin button($border-color: $color-border-button) {
   padding: $padding-button;
-  border: $border-width solid $color-border-button;
+  border: $border-width solid $border-color;
   background: $color-background-button;
   color: $color-text-button;
   font-size: $font-size-small;
