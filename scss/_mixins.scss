@@ -7,7 +7,7 @@
     display: inline;
 
     &:not(:last-child) {
-      margin-right: $margin-content;
+      margin-right: $margin-content / 2;
     }
   }
 }
