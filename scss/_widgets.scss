@@ -12,9 +12,8 @@
 
     a {
       display: inline-block;
-      height: 2.777777778em;
-      padding-top: $padding-content / 2;
-      padding-bottom: $padding-content / 2;
+      padding-top: $padding-content * 0.875;
+      padding-bottom: $padding-content * 0.875;
     }
   }
 
