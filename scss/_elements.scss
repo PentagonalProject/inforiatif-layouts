@@ -31,10 +31,18 @@ img {
 .form-search {
   position: relative;
 
-  .btn {
+  label {
+    @include icons-sprite(search);
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 0.5rem;
+    left: 0.5rem;
+    width: $width-icon;
+    height: $height-icon;
+    font: $font-hidden;
+  }
+
+  .input-field {
+    padding-left: $padding-content * 3;
   }
 }
 

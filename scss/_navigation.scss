@@ -14,7 +14,7 @@ a {
     @include button;
     display: block;
     position: relative;
-    font: 0/0 a;
+    font: $font-hidden;
 
     &::before {
       content: '';
