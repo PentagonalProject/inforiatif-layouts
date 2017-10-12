@@ -2,9 +2,41 @@ a {
   text-decoration: none;
 }
 
-.skip-link {
-  @include button;
-  display: inline-block;
+.skip-links {
+  @include list-inline;
+  position: absolute;
+  right: 1em;
+  bottom: 1em;
+  margin-top: 0;
+  margin-bottom: 0;
+
+  a {
+    @include button;
+    display: block;
+    position: relative;
+    font: 0/0 a;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 15%;
+      right: 15%;
+      width: $width-icon;
+      height: $height-icon;
+    }
+  }
+}
+
+.skip-menu {
+  &::before {
+    @include icons-sprite(menu);
+  }
+}
+
+.skip-search {
+  &::before {
+    @include icons-sprite(search);
+  }
 }
 
 .main-navigation {

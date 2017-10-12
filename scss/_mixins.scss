@@ -1,10 +1,16 @@
+// Compass Utilities
+@import 'compass/utilities/sprites';
+
+// The Sprites Directory
+@import 'icons/*.png';
+
 // List Inline
 @mixin list-inline {
   list-style-type: none;
   padding-left: 0;
 
   li {
-    display: inline;
+    display: inline-block;
 
     &:not(:last-child) {
       margin-right: $margin-content / 2;
@@ -14,6 +20,8 @@
 
 // Button
 @mixin button($border-color: $color-border-button) {
+  min-width: $width-button;
+  min-height: $height-button;
   padding: $padding-button;
   border: $border-width solid $border-color;
   background: $color-background-button;

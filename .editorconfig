@@ -12,3 +12,6 @@ indent_size = 4
 
 [*.{scss, yml}]
 indent_size = 2
+
+[*.rb]
+indent_size = 2
