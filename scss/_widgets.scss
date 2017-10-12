@@ -31,3 +31,29 @@
   font-size: $font-size-large;
   line-height: $line-height-heading;
 }
+
+.social-follow {
+  a {
+    display: block;
+    width: $width-social-icon;
+    height: $height-social-icon;
+    font: $font-hidden;
+  }
+
+  .facebook {
+    @include icons-sprite(facebook);
+
+  }
+
+  .twitter {
+    @include icons-sprite(twitter);
+  }
+
+  .instagram {
+    @include icons-sprite(instagram);
+  }
+
+  .feed {
+    @include icons-sprite(feed);
+  }
+}
