@@ -34,11 +34,10 @@
 
 .social-follow {
   a {
+    @include text-hidden;
     display: block;
     width: $width-social-icon;
     height: $height-social-icon;
-    font-size: $font-size-hidden;
-    line-height: $line-height-hidden;
   }
 
   .facebook {

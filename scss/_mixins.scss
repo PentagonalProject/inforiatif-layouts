@@ -4,6 +4,12 @@
 // The Sprites Directory
 @import 'icons/*.png';
 
+// Text Hidden
+@mixin text-hidden {
+  font-size: $font-size-hidden;
+  line-height: $line-height-hidden;
+}
+
 // List Inline
 @mixin list-inline {
   list-style-type: none;

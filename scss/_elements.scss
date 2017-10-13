@@ -33,13 +33,12 @@ img {
 
   label {
     @include icons-sprite(search);
+    @include text-hidden;
     position: absolute;
     top: 0.5rem;
     left: 0.5rem;
     width: $width-icon;
     height: $height-icon;
-    font-size: $font-size-hidden;
-    line-height: $line-height-hidden;
   }
 
   .input-field {
