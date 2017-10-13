@@ -11,7 +11,7 @@ a {
   margin-bottom: 0;
 
   a {
-    @include button(0, 0);
+    @include button($font-size-hidden, $line-height-hidden);
     display: block;
     position: relative;
 

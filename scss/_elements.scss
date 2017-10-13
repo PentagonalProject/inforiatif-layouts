@@ -38,7 +38,8 @@ img {
     left: 0.5rem;
     width: $width-icon;
     height: $height-icon;
-    font: $font-hidden;
+    font-size: $font-size-hidden;
+    line-height: $line-height-hidden;
   }
 
   .input-field {
