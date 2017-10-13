@@ -3,7 +3,7 @@
   position: absolute;
 
   &:focus {
-    @include button(transparent);
+    @include button($font-size-small, $line-height-small, transparent);
     display: block;
     position: static;
   }

@@ -11,10 +11,9 @@ a {
   margin-bottom: 0;
 
   a {
-    @include button;
+    @include button(0, 0);
     display: block;
     position: relative;
-    font: $font-hidden;
 
     &::before {
       content: '';

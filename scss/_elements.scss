@@ -21,7 +21,7 @@ img {
 }
 
 .btn {
-  @include button;
+  @include button($font-size-small, $line-height-small);
 }
 
 .btn-block {
