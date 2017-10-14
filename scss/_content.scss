@@ -60,6 +60,14 @@
 // ==============================================
 // Site Footer
 // ==============================================
+.site-footer {
+  section {
+    &:not(:nth-child(n+3)) {
+      margin-bottom: $margin-content * 2;
+    }
+  }
+}
+
 .site-info {
   padding: $padding-content;
   line-height: 1;
