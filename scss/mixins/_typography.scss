@@ -1,0 +1,5 @@
+// Text Hidden
+@mixin text-hidden {
+  font-size: $font-size-hidden;
+  line-height: $line-height-hidden;
+}
