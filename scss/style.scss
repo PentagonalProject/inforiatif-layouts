@@ -1,6 +1,21 @@
+/**
+* Inforiatif Layouts
+* https://github.com/PentagonalProject/inforiatif-layouts
+*
+* @author    Pentagonal
+* @copyright 2017 Pentagonal. All rights reserved.
+*/
+
 @charset 'utf-8';
 
+// ==============================================
+// Variables
+// ==============================================
 @import 'variables';
+
+// ==============================================
+// Mixins
+// ==============================================
 @import 'mixins';
 
 // ==============================================
@@ -34,6 +49,6 @@
 @import 'widgets';
 
 // ==============================================
-// Accessibility
+// Content
 // ==============================================
 @import 'content';
