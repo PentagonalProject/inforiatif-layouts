@@ -1,0 +1,17 @@
+html {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+.list-inline {
+  @include list-inline;
+}
+
+img {
+  width: 100%;
+}
+
+@import 'forms';
