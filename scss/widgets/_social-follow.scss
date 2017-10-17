@@ -1,0 +1,24 @@
+.social-follow {
+  a {
+    @include text-hidden;
+    width: $width-social-icon;
+    height: $height-social-icon;
+  }
+
+  .facebook {
+    @include icons-sprite(facebook);
+
+  }
+
+  .twitter {
+    @include icons-sprite(twitter);
+  }
+
+  .instagram {
+    @include icons-sprite(instagram);
+  }
+
+  .feed {
+    @include icons-sprite(feed);
+  }
+}
