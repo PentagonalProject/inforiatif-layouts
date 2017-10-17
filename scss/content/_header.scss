@@ -1,0 +1,20 @@
+.site-header {
+  position: absolute;
+  z-index: 1;
+}
+
+.site-title {
+  a {
+    display: inline-block;
+    padding-right: $padding-content;
+    padding-left: $padding-content;
+    background: $color-background-hero-text;
+    color: $color-link-hero;
+  }
+}
+
+.site-description {
+  padding: $padding-content / 2 $padding-content;
+  background: $color-background-hero-text;
+  color: $color-link-hero;
+}

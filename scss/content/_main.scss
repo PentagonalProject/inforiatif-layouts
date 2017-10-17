@@ -1,0 +1,31 @@
+.site-main {
+  overflow: hidden;
+  position: relative;
+  height: 100vh;
+}
+
+.hero {
+  img {
+    height: 100vh;
+    object-fit: cover;
+  }
+}
+
+.hero-header {
+  position: absolute;
+  bottom: 20vh;
+}
+
+.hero-title {
+  font-size: $font-size-x-large;
+
+  a {
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    padding-top: $padding-content / 2;
+    padding-right: $padding-content;
+    padding-left: $padding-content;
+    background: $color-background-hero-text;
+    color: $color-link-hero;
+  }
+}
